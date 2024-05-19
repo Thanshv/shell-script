@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo "Ramesh: Hi Suresh"
-echo "suresh: Hello Ramesh"
-echo "Ramesh: How is your work?"
-echo "suresh: not nad... but want to upgrade"
+PERSON1=Ramesh
+PERSON2=Suresh
+
+
+echo "$PERSON1: Hi $PERSON2"
+echo "$PERSON2: Hello $PERSON1"
+echo "$PERSON1: How is your work?"
+echo "$PERSON2: not nad... but want to upgrade"
